@@ -77,19 +77,18 @@ button {
   max-width: 392px;
   background-color: #f6f6fe;
   margin-bottom: 24px;
+  padding: 16px;
 }
 
 .item h2 {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.33;
-  padding: 16px;
-
 }
 
 .list-items {
   font-size: 16px;
-  padding: 16px;
+  padding: 0;
 }
 
 .list-items li {
@@ -128,7 +127,6 @@ img {
 
 #name-input {
   font-family: var(--font-family);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -140,6 +138,10 @@ img {
   margin-bottom: 16px;
   width: 360px;
   height: 40px;
+}
+
+#name-input:focus {
+  border: 1px solid #000;
 }
 
 input {
